@@ -13,7 +13,7 @@ const AllPosts = () => {
    },[])
     
     return ( 
-      <div style={{height:'100%',minHeight:'100vh' }}>
+      <div style={{height:'100%',minHeight:'100vh' }} >
        <PostList posts={posts} />
        </div>
      );

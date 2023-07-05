@@ -3,6 +3,7 @@ import axios from 'axios';
 import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react';
 import Form from "react-bootstrap/Form";
+import '../Styles/AllPosts.css';
 
 const PostList = ({posts}) => {
   const [show, setShow] = useState(false);
@@ -43,18 +44,18 @@ const PostList = ({posts}) => {
    }
   
    return ( 
-     <div className="p-5" >
+     <div className="p-5 " >
 
        {posts.map(post => (
-         <div className='container row border border-primary border-3 mx-auto text-center  w-25  m-5 p-3 bg-info bg-opacity-50 rounded' key={post._id}>
+         <div style={{minWidth:'fit-content'}} className='post-container container row border border-primary border-3 mx-auto text-center  w-25  m-5 p-3 bg-info bg-opacity-50 rounded' key={post._id}>
            <div className="col"> 
             <h2>{(post.title)}</h2>
             <p>{post.description}</p>
 
            </div>
-          <div className='d-flex flex-row justify-content-evenly mt-2'>
-           <Button onClick={() => updatePost(post)} className='btn btn-warning border border-dark'>Update</Button>
-           <Button onClick={() => handleDelete(post._id)} className='btn btn-danger border border-dark'>Delete</Button>
+          <div className=' d-flex flex-column justify-content-evenly mt-2'>
+           <Button onClick={() => updatePost(post)} className='btn btn-warning border border-dark m-3 w-50 mx-auto'>Update</Button>
+           <Button onClick={() => handleDelete(post._id)} className='btn btn-danger border border-dark m-3 w-50 mx-auto'>Delete</Button>
            </div>
            <Modal className='bg-dark bg-opacity-25' show={show} onHide={handleClose}>
            <Modal.Header closeButton >
