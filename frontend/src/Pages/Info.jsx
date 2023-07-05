@@ -2,7 +2,7 @@ import mern2 from '../images/mern2.png';
 
 const Info = () => {
     return ( 
-        <div style={{height:'100vh'}} className="text-center">
+        <div style={{height:'100%',minHeight:'100vh' }} className="text-center">
             <h1 className="pt-5">Info</h1>
           <div >
             <p style={{fontSize:'1.2em'}} className=" mx-auto m-5 p-5 bg-light bg-opacity-75 mb-0 border border-dark  ">This is the first project we made utilizing the full potential of the MERN technological stack.
@@ -13,8 +13,8 @@ const Info = () => {
             </p>
           </div>
             
-          <div className="card bg-light bg-opacity-75">
-          <img className="m-4 mx-auto" src={mern2} alt="Mern stack example" height="auto" width="250"></img>
+          <div className="bg-light bg-opacity-75">
+          <img className="m-4 mb-0 mx-auto" src={mern2} alt="Mern stack example" height="auto" width="250"></img>
           <h2>THE MERN STACK</h2>
           <p className='w-75 mx-auto'>The MERN Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. 
              <br></br>

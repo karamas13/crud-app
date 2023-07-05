@@ -43,7 +43,7 @@ const Create = () => {
       <div className="container p-5 " style={{height:'100vh'}}> 
        <div className='className="container-sm d-flex justify-content-center align-items-center mt-2'>  
          <Button className='bg-transparent h-5 border border-transparent border-0' onClick={handleNavigate}><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></Button>
-         <h1 className='text-dark text-decoration-underline '>~CREATE~</h1>
+         <h1 className='text-dark'>CREATE</h1>
         </div>
     
         <Form className='d-flex  flex-column border border-dark border-2 rounded mx-auto p-5 w-75 mt-5 text-dark bg-primary bg-opacity-75'>
