@@ -25,8 +25,8 @@ const Contact = () => {
 
               </div>             
             </div>
-             <div className='email p-5 mx-auto text-center'>
-              <h3 style={{width:'fit-content'}} className=' d-flex flex-column mx-auto  p-3 border border-dark rounded border-3 '>Email: devhub38@gmail.com</h3>
+             <div className=' p-5 mx-auto text-center'>
+              <h3 style={{width:'fit-content'}} className='email d-flex flex-column mx-auto  p-3 border border-dark rounded border-3 '>Email: devhub38@gmail.com</h3>
              </div> 
         </div>
      );

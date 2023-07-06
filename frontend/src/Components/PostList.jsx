@@ -44,10 +44,10 @@ const PostList = ({posts}) => {
    }
   
    return ( 
-     <div className="p-5 " >
+     <div className="p-5 post-container " >
 
        {posts.map(post => (
-         <div style={{minWidth:'fit-content'}} className='post-container container row border border-primary border-3 mx-auto text-center  w-25  m-5 p-3 bg-info bg-opacity-50 rounded' key={post._id}>
+         <div style={{minWidth:'fit-content'}} className=' container row border border-primary border-3 mx-auto text-center  w-25  mb-5 p-3 bg-info bg-opacity-50 rounded' key={post._id}>
            <div className="col"> 
             <h2>{(post.title)}</h2>
             <p>{post.description}</p>

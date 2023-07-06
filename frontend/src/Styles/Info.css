@@ -3,16 +3,17 @@
     margin-left:15px;
    }
 
+
     .container1{
-    font-size: 13px;
-    width: 100vw !important;
-    padding-right: 85px !important;
+     font-size: 13px;
+     width: 100vw ;
+     margin-right: 30px !important;
    }
 
    .container2{
     font-size: 13px;
-    width: 100vw !important;
-    padding-right: 35px;
+    width: 100vw ;
+    padding-right: 50px;
     
    }
 

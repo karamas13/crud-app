@@ -3,10 +3,10 @@ import '../Styles/Info.css';
 
 const Info = () => {
     return ( 
-        <div style={{height:'100%',minHeight:'100vh' }} className="parent-container  text-center p-5  ">
-            <h1 className="pt-5">Info</h1>
-          <div  style={{minWidth:'fit-content'}} className='mx-auto  '>
-            <p style={{minWidth:'100vw'}}  className="container1 mx-auto  m-5 p-5 bg-light bg-opacity-75 mb-0 border border-dark">This is the first project we made utilizing the full potential of the MERN technological stack.
+        <div style={{height:'100%',minHeight:'100vh' }} className="parent-container text-center p-5  ">
+            <h1 className="pt-5 ">Info</h1>
+          <div  style={{minWidth:'fit-content'}} className='mx-auto'>
+            <p style={{minWidth:'100vw'}}  className="container1 mx-auto p-5 m-5 bg-light bg-opacity-75 mb-0 border border-dark">This is the first project we made utilizing the full potential of the MERN technological stack.
              <br></br> 
                Specifiaclly this is a CRUD application 
              <br></br>   
