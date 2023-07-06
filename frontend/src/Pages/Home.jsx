@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
 import mern from '../images/mern.png';
-import '../Styles/HomeResponse.css';
+import '../Styles/Home.css';
 
 const Home = () => {
     const navigate = useNavigate();

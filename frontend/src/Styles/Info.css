@@ -1,0 +1,28 @@
+@media screen and (max-width:420px){
+   h1{
+    margin-left:15px;
+   }
+
+    .container1{
+    font-size: 13px;
+    width: 100vw !important;
+    padding-right: 85px !important;
+   }
+
+   .container2{
+    font-size: 13px;
+    width: 100vw !important;
+    padding-right: 35px;
+    
+   }
+
+   .container2 > h2{
+    font-size: 18px;
+
+   }
+
+   .img1{
+     height: auto;
+     width: 150px;
+   }
+}
