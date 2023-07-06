@@ -11,8 +11,8 @@ const Home = () => {
     }
 
     return (  
-     <div className=' card-parent pt-5 ' style={{height:'100%', minHeight:'100vh'}}> 
-      <div className='home-card card mx-auto w-50  p-5 text-center border border-primary bg-primary p-2 text-dark bg-opacity-75 rounded' style={{minWidth:'fit-content'}}>
+     <div className='card-parent pt-5 ' style={{height:'100%', minHeight:'100vh'}}> 
+      <div id='home' className='home-card card mx-auto w-50  p-5 text-center border border-primary bg-primary p-2 text-dark bg-opacity-75 rounded' style={{minWidth:'fit-content'}}>
           <h1 style={{fontSize:'3em'}}>WELCOME</h1>
           <img id='mern-img1' className=" mx-auto m-3  mern" src={mern} alt="Mern stack example" height="auto" width="350"></img>
           <p style={{fontSize:'1.5em'}}>This is a MERN stack CRUD application</p>

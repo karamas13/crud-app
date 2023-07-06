@@ -54,8 +54,8 @@ const PostList = ({posts}) => {
 
            </div>
           <div className=' d-flex flex-column justify-content-evenly mt-2'>
-           <Button onClick={() => updatePost(post)} className='btn btn-warning border border-dark m-3 w-50 mx-auto'>Update</Button>
-           <Button onClick={() => handleDelete(post._id)} className='btn btn-danger border border-dark m-3 w-50 mx-auto'>Delete</Button>
+           <Button onClick={() => updatePost(post)} className='button1 btn btn-warning border border-dark m-3 w-50 mx-auto'>Update</Button>
+           <Button onClick={() => handleDelete(post._id)} className='button1 btn btn-danger border border-dark m-3 w-50 mx-auto'>Delete</Button>
            </div>
            <Modal className='bg-dark bg-opacity-25' show={show} onHide={handleClose}>
            <Modal.Header closeButton >

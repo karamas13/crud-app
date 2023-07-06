@@ -2,6 +2,7 @@ import PostList from "../Components/PostList";
 import { useState, useEffect } from "react";
 import axios from 'axios';
 
+
 const AllPosts = () => {
     const[posts, setPosts] = useState([])
 

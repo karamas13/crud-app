@@ -6,9 +6,9 @@ import "../Styles/Contact.css"
 
 const Contact = () => {
     return ( 
-        <div className="text-center " style={{height:'100%',minHeight:'100vh' }}>
+        <div className="text-center " style={{height:'max-content',minHeight:'100vh' }}>
             <h1>Contact</h1>
-            <div className='d-flex flex-row justify-content-center align-items-center p-5 ' >
+            <div className='contact-container d-flex flex-row justify-content-center align-items-center p-5 ' >
               <div className='d-flex flex-column m-5 p-3 border border-dark rounded border-3 '>
                 <img src={icon} height='150' width='auto'/>
                 <h3 className='mt-3'><Link to="https://github.com/karamas13" target="_blank">GitHub</Link></h3>
@@ -23,8 +23,11 @@ const Contact = () => {
                 <img src={facebook} height='150' width='auto'/>
                 <h3 className='mt-3'><Link to="https://github.com/karamas13" target="_blank">Facebook</Link></h3>
 
-              </div>
+              </div>             
             </div>
+             <div className='email p-5 mx-auto text-center'>
+              <h3 style={{width:'fit-content'}} className=' d-flex flex-column mx-auto  p-3 border border-dark rounded border-3 '>Email: devhub38@gmail.com</h3>
+             </div> 
         </div>
      );
 }
