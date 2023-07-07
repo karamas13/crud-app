@@ -31,8 +31,8 @@ const Create = () => {
        }
 
        axios.post('http://localhost:3001/create' , newPost)
-       navigate("/")
-      
+       navigate("/pages/AllPosts")
+       window.location.reload();
    }
   
     return (
