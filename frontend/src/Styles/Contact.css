@@ -11,14 +11,21 @@ a:hover{
 
 @media screen and (max-width:420px) {
     .contact-container{
-        
         flex-wrap: wrap;
         flex-direction: column ;
     }
     
     .email{
         font-size: 15px !important;
-     
     }
     
+}
+
+@media  screen and (max-width: 850px) and (min-width:421px) {
+    .contact-container{   
+        flex-wrap: wrap;
+        flex-direction: column ;
+    }
+
+  
 }

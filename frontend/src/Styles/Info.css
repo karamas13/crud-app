@@ -27,3 +27,13 @@
      width: 150px;
    }
 }
+
+
+@media  screen and (max-width: 850px) and (min-width:421px) {
+
+ .parent-container {
+   overflow: hidden;
+ }
+
+
+}

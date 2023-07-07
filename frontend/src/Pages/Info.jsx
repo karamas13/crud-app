@@ -19,7 +19,7 @@ const Info = () => {
             </p>
           </div>
             
-          <div style={{minWidth:'100vw'}}  className="pb-5 container2 mx-auto bg-light bg-opacity-75  border border-dark">
+          <div style={{minWidth:'100vw'}}  className="pb-5  container2 mx-auto bg-light bg-opacity-75  border border-dark">
           <img className="img1 mx-auto" src={mern2} alt="Mern stack example" height="auto" width="250"></img>
           <h2>THE MERN STACK</h2>
           <p className='w-75 mx-auto '>The MERN Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. 
